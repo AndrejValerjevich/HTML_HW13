@@ -1,0 +1,87 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	width: 1920px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.features {
+	width: auto;
+	height: 693px;
+	background: #fff;
+}
+.center {
+	max-width: 1168px;
+	margin: 0 auto;
+	padding-top: 120px;
+}
+
+.item {
+	float: left;
+	width: 33.333333333%;
+	height: 100%;
+	padding-left: 5px;
+	padding-right: 24px;
+	box-sizing: border-box;
+	text-align: center;
+}
+.item:nth-child(n+4) {
+	margin-top: 71px;
+}
+.item .title {
+	text-align: center;
+	font-size: 14px;
+	line-height: 1em;
+	font-weight: 700;
+	margin-top: 29px;
+	margin-bottom: 30px;
+}
+.item .description {
+	text-align: center;
+	font-size: 14px;
+	line-height: 21px;
+	width: 296px;
+	margin-top: -10px;
+	margin-left: 32px;
+}
+
+.photo-container {
+	float: left;
+	width: 25%;
+	height: 350px;
+	background-size: cover;
+	box-shadow: 0 0 0 1px #fff;
+}
+.work-1 {
+	background-image: url("../img/work-1.png");
+}
+.work-2 {
+	background-image: url("../img/work-2.png");
+	background-position: center center;
+}
+.work-3 {
+	background-image: url("../img/work-3.png");
+	background-position: center center;
+}
+.work-4 {
+	background-image: url("../img/work-4.png");
+	background-position: center center;
+}
+.work-5 {
+	background-image: url("../img/work-5.png");
+}
+.work-6 {
+	background-image: url("../img/work-6.png");
+	background-position: center center;
+}
+.work-7 {
+	background-image: url("../img/work-7.png");
+	background-position: center center;
+}
+.work-8 {
+	background-image: url("../img/work-8.png");
+	background-position: center center;
+}
