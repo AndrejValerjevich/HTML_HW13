@@ -46,6 +46,7 @@ html, body {
 	width: 296px;
 	margin-top: -10px;
 	margin-left: 32px;
+	color: #6c7279;
 }
 
 .photo-container {
@@ -62,10 +63,39 @@ html, body {
 	background-image: url("../img/work-2.png");
 	background-position: center center;
 }
+
 .work-3 {
 	background-image: url("../img/work-3.png");
 	background-position: center center;
+	position: relative;
 }
+.works a:hover .work-3:before {
+	content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(232, 69, 69, .9);
+  z-index: 2;
+}
+.work-3 p {
+	text-align: center;
+	font-size: 14px;
+	z-index: 3;
+	color: #fff;
+	display: none;
+}
+.work-name {
+	margin-top: 160px;
+	margin-bottom: 10px;
+	font-weight: 700;
+}
+.works a:hover .work-3 p {
+	display: block;
+}
+
 .work-4 {
 	background-image: url("../img/work-4.png");
 	background-position: center center;
